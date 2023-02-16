@@ -12,6 +12,7 @@ https://templatemo.com/tm-578-first-portfolio
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
+  --grey-color:                   #FFFBF5;
   --primary-color:                #535da1;
   --secondary-color:              #14B789;
   --section-bg-color:             #f9f9f9;
@@ -505,7 +506,7 @@ strong {
 }
 
 .hero-image-wrap {
-  background: var(--white-color);
+  background: var(--grey-color);
   border-radius: 100%;
   width: 350px;
   height: 350px;
