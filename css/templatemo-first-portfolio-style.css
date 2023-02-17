@@ -295,7 +295,7 @@ strong {
 }
 
 .custom-link:hover {
-	background-color: var(--secondary-color);
+	background-color: var(--dark-color);
 }
 
 
