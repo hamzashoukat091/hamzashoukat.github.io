@@ -482,8 +482,7 @@ strong {
   }
 }
 
-.hero-title,
-.hero h2 {
+.hero-title {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
   border-radius: var(--border-radius-large);
@@ -496,7 +495,15 @@ strong {
 }
 
 .hero h2 {
-	font-size: 38px;
+  background: var(--white-color);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  border-radius: var(--border-radius-large);
+  display: inline-block;
+  padding: 8px 24px;
+}
+
+.hero h2 {
+	font-size: 30px;
 }
 
 .hero-text {
@@ -999,10 +1006,14 @@ strong {
     min-width: 650px;
   }
   
-  .hero-title,
-	.hero h2 {
+  .hero-title {
 	  font-size: var(--h2-font-size);
 	}
+
+  .hero h2 {
+	  font-size: 40px;
+	}
+
 }
 
 @media screen and (max-width: 991px) {
